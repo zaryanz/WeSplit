@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var checkAmount = 0.0;
-    @State var numberOfPeople = 0;
-    @State var tipPercentage = 20;
+    @State private var checkAmount = 0.0;
+    @State private var numberOfPeople = 0;
+    @State private var tipPercentage = 20;
     let tipPercentages = [10, 15, 20, 25, 0]
     
     var totalPerPerson: Double {
